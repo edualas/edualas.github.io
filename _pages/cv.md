@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 ## Education
 
 * M.Sc. in Integrated Climate System Sciences (ICSS), 2019-2022
