@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Eduardo Alastrué de Asenjo / Site Title"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Eduardo Alastrué de Asenjo"
 description              : &description "personal description"
@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "photo_mpi_edu_ed.jpeg"
+  avatar           : "photo_edu.png"
   name             : "Eduardo Alastrué de Asenjo"
   pronouns         : "he/him"  
   bio              : "Climate Modelling PhD candidate"
