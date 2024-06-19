@@ -23,6 +23,6 @@ author_profile: true
 * **IUGG 28th General Assembly**, Berlin, Germany, 11-20.07.2023. 
   * **Talk by Alastrué de Asenjo et. al.: Anthropogenic greenhouse gases emerging as necessary for modelled AMOC low strengths**
 
-* **EGU22**, Vienna, Austria, 14-19.04.2024.
+* **EGU22**, Vienna, Austria, 23-27.05.2022.
   * **Talk by Alastrué de Asenjo et al.: Causal attribution of low AMOC strengths to anthropogenic influence**
   * Talk by Jackson, Alastrué de Asenjo, et al.: AMOC thresholds in CMIP6 models: NAHosMIP
