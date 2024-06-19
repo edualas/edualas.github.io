@@ -5,8 +5,6 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% include base_path %}
-
 ## Conferences attended
 (bold where I was the presenting author)
 
