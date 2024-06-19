@@ -3,7 +3,6 @@ title: "Climate Dynamics Teaching Assisstant"
 collection: teaching
 type: "MSC & PhD course"
 permalink: /teaching/clim_dyn
-date: 2022
 ---
 
 Teaching Assistant on Climate Dynamics
