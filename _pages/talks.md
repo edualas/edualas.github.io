@@ -8,7 +8,7 @@ author_profile: true
 ## Conferences attended
 (bold where I was the presenting author)
 
-* EAERE, Leuven, Belgium, 01-04.07.2024. 
+### EAERE 2024, Leuven, Belgium, 01-04.07.2024. 
   * **Talk by Schaumann and Alastrué de Asenjo: Flipping the cost of tipping? Economic impacts of reduced AMOC carbon drawdown**
 
 * EGU24, Vienna, Austria, 14-19.04.2024.
