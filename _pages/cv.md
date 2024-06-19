@@ -16,3 +16,4 @@ redirect_from:
   * Erasmus exchange (Courses of MSc Theoretical Physics and MSc Science for Energy and Sustainability), University of Amsterdam, 2017-2018
 
 Here is the latest version (last update on 19.06.24) of my CV in PDF:
+
