@@ -2,7 +2,6 @@
 title: "Teaching Assisstant"
 collection: teaching
 type: "MSc & PhD course"
-permalink: /teaching/clim_dyn
 venue: "University of Hamburg"
 date: 2022-04-01
 ---
