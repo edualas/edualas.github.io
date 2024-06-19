@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "photo_edu.png"
+  avatar           : "files/photo_edu.png"
   name             : "Eduardo Alastrué de Asenjo"
   pronouns         : "he/him"  
   bio              : "Climate Modelling PhD candidate"
