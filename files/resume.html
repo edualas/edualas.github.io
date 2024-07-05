@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #38393B;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  /* h1:hover { */
+  /*     background-color: #757575; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #356CBB;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #356CBB;
+  }
+  /* h2:hover { */
+  /*     background-color: #397249; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      font-weight: bold;
+  }
+  dd {
+      margin-left: 17%;
+      margin-bottom:7px;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="eduardo-alastrué-de-asenjo">Eduardo Alastrué de Asenjo</h1>
+<hr />
+<p style="text-align:left;">
+Bundesstraße 53 <span style="float:right;">
+eduardo.alastrue-de-asenjo@mpimet.mpg.de </span>
+</p>
+<p style="text-align:left;">
+20146 Hamburg <span style="float:right;"> +49 40 42838-2604 </span>
+</p>
+<p style="text-align:left;">
+<p>Germany <span style="float:right;"> edualas.github.io </span></p>
+<hr />
+<h2 id="education">Education</h2>
+<dl>
+<dt>2022-present</dt>
+<dd>
+<p><strong>PhD, Climate Physics/Modelling</strong></p>
+<p><strong>International Max Planck Research School on Earth System
+Modelling</strong> (Hamburg, Germany)</p>
+<em>Thesis: Influence of oceanic variations on extreme events over
+Europe</em>
+<p>
+ 
+</p>
+</dd>
+<dt>2019-2022</dt>
+<dd>
+<p><strong>MSc Integrated Climate System Sciences</strong></p>
+<p><strong>Universität Hamburg</strong> (Hamburg, Germany)</p>
+<p>120 ECTS, Honours</p>
+<em>Thesis: Event Attribution of the Atlantic Meridional Overturning
+Circulation</em> (1.0)
+<p>
+ 
+</p>
+</dd>
+<dt>2017-2018</dt>
+<dd>
+<p><strong>ERASMUS+ Exchange</strong></p>
+<p><strong>University of Amsterdam</strong> (Amsterdam, The
+Netherlands)</p>
+<em>Courses of MSc Theoretical Physics and MSc Science for Energy and
+Sustainability</em>
+<p>
+ 
+</p>
+</dd>
+<dt>2014-2019</dt>
+<dd>
+<p><strong>Bachelor’s Degree in Physics</strong></p>
+<p><strong>Universidad Complutense de Madrid</strong> (Madrid,
+Spain)</p>
+<p>240 ECTS, Theoretical Physics track</p>
+<em>Thesis: Climate Change: Global analysis of temperature variations in
+response to changes in external forcings during the instrumental
+period</em> (10/10)
+<p>
+ 
+</p>
+</dd>
+</dl>
+<h2 id="publications">Publications</h2>
+<dl>
+<dt>2023</dt>
+<dd>
+Jackson, L. C., <strong>Alastrué de Asenjo, E.</strong>, Bellomo, K.,
+Danabasoglu, G., Haak, H., Hu, A., Jungclaus, J., Lee, W., Meccia, V.
+L., Saenko, O., Shao, A., &amp; Swingedouw, D. (2023). Understanding
+AMOC stability: The North Atlantic Hosing Model Intercomparison Project.
+<em>Geoscientific Model Development</em>, 16(7), 1975–1995.
+<code>https://doi.org/10.5194/gmd-16-1975-2023</code>
+</dd>
+</dl>
+<h2 id="conferences">Conferences</h2>
+<p>Highlighted are the contributions for which I was the presenting
+author:</p>
+<dl>
+<dt>EAERE 2024</dt>
+<dd>
+<p>Leuven, Belgium; 01-04.07.2024</p>
+<ul>
+<li><strong>Talk by Schaumann and Alastrué de Asenjo: <em>Flipping the
+cost of tipping? Economic impacts of reduced AMOC carbon drawdown</em>
+</strong>
+<p>
+ 
+</p></li>
+</ul>
+</dd>
+<dt>EGU24</dt>
+<dd>
+<p>Vienna, Austria; 14-19.04.2024</p>
+<ul>
+<li><p><strong>Poster by Alastrué de Asenjo et al.: <em>Understanding
+the influence of Atlantic Meridional Overturning Circulation interannual
+variability on European cold extremes</em> </strong></p></li>
+<li><p>Talk by Schaumann and Alastrué de Asenjo: <em>Flipping the cost
+of tipping? Economic impacts of reduced AMOC carbon
+drawdown</em></p></li>
+<li><p>Talk by Jackson, Alastrué de Asenjo, et al.: <em>AMOC thresholds
+in CMIP6 models: NAHosMIP</em></p>
+<p>
+<p> </p>
+</p></li>
+</ul>
+</dd>
+<dt>AGU23</dt>
+<dd>
+<p>San Francisco, USA; 11-15.12.2023</p>
+<ul>
+<li><p><strong>Poster by Alastrué de Asenjo et al.: <em>Does the
+Atlantic Meridional Overturning Circulation variability influence
+European extreme events?</em> </strong></p></li>
+<li><p>Talk by Schaumann and Alastrué de Asenjo: <em>Reduced AMOC Carbon
+Drawdown and its Effect on the Social Cost of Carbon</em></p>
+<p>
+<p> </p>
+</p></li>
+</ul>
+</dd>
+<dt>IUGG 2023</dt>
+<dd>
+<p>Berlin, Germany; 11-20.07.2023</p>
+<ul>
+<li><strong>Talk by Alastrué de Asenjo et. al.: <em>Anthropogenic
+greenhouse gases emerging as necessary for modelled AMOC low
+strengths</em> </strong>
+<p>
+ 
+</p></li>
+</ul>
+</dd>
+<dt>EGU22</dt>
+<dd>
+<p>Vienna, Austria; 23-27.05.2022</p>
+<ul>
+<li><p><strong>Talk by Alastrué de Asenjo et al.: <em>Causal attribution
+of low AMOC strengths to anthropogenic influence</em> </strong></p></li>
+<li><p>Talk by Jackson, Alastrué de Asenjo, et al.: <em>AMOC thresholds
+in CMIP6 models: NAHosMIP</em></p></li>
+</ul>
+</dd>
+</dl>
+<h2 id="teaching">Teaching</h2>
+<dl>
+<dt>Invited lecturer</dt>
+<dd>
+<p>2023 and 2024</p>
+<p>BSc course, University of Hamburg</p>
+I taught a lecture on the topic “Climate change: oceans and cryosphere”
+for the Understanding Climate Change Course (BSc students) led by Prof
+Dr Jana Sillmann.
+<p>
+ 
+</p>
+</dd>
+<dt>Teaching Assistant</dt>
+<dd>
+<p>2022</p>
+<p>MSc &amp; PhD course, University of Hamburg</p>
+<p>I was the teaching assistant for the Climate Dynamics Course (for MSc
+and PhD students) lectured by Prof Dr Jochem Marotzke. I helped with
+questions, and corrected and graded all assignments.</p>
+</dd>
+</dl>
+<h2 id="work-experience">Work experience</h2>
+<dl>
+<dt>Feb 2020 - Jan 2022</dt>
+<dd>
+<p>Student Assistant for Johann Jungclaus, Director’s Research Group in
+the “Ocean in the Earth System” Department, Max Planck Institute for
+Meteorology (Hamburg, Germany)</p>
+<p>Archive and cmorise MPI-ESM experiments (e.g., past2k). Participation
+in NAHosMIP by running, monitoring and post-processing MPI-ESM LR and HR
+experiments</p>
+</dd>
+<dt>April-July 2019</dt>
+<dd>
+<p>Internship, ENUSA Industrias Avanzadas, S.A. S.M.E. (Madrid,
+Spain)</p>
+<p>BWR Fuel Element &amp; Core Design Engineering for ERU Uranium</p>
+</dd>
+</dl>
+<h2 id="scholarships">Scholarships</h2>
+<dl>
+<dt>2021-2022</dt>
+<dd>
+Merit Scholarship for International Students at Universität Hamburg
+</dd>
+<dt>2018-2019</dt>
+<dd>
+<p>University Complutense of Madrid (UCM) Enrolment Grant</p>
+</dd>
+<dt>2013-2018</dt>
+<dd>
+<p>Spanish Ministry of Education and Culture (MEC) General
+Scholarship</p>
+</dd>
+<dt>2017-2018</dt>
+<dd>
+<p>ERASMUS+ Scholarship for exchange at the University of Amsterdam</p>
+</dd>
+<dt>2014-2015</dt>
+<dd>
+<p>Madrid Autonomous Community Excellence Scholarship</p>
+</dd>
+</dl>
+<h2 id="technical-skills">Technical skills</h2>
+<ul>
+<li>Programming languages
+<ul>
+<li>Python, Matlab, R
+<p>
+ 
+</p></li>
+</ul></li>
+<li>Operative Systems
+<ul>
+<li>macOS, Linux/Unix, Windows, OpenVMS
+<p>
+ 
+</p></li>
+</ul></li>
+<li>Software
+<ul>
+<li>LaTeX, SciDAVis, Office
+<p>
+ 
+</p></li>
+</ul></li>
+<li>Miscellaneous
+<ul>
+<li>Parallel computing (SLURM), Git, HPSS/HSM, xarray, CDO
+<p>
+ 
+</p></li>
+</ul></li>
+</ul>
+<h2 id="extracurricular-courses">Extracurricular courses</h2>
+<dl>
+<dt>2021</dt>
+<dd>
+<p>Summer course on “Arctic Marine Measurements Techniques, Operations
+and Transport” (10 ECTS) UNIS, Longyearbyen, Svalbard</p>
+</dd>
+<dt>2021</dt>
+<dd>
+<p>IPSL Virtual Spring School 2021 on “Climate Change: challenges and
+issues for the Earth Sciences” Institut Pierre-Simon Laplace</p>
+</dd>
+<dt>2018</dt>
+<dd>
+<p>Course “Reflections on our masculinities. A critical analysis and
+healthy alternatives” (2 ECTS) UCM, Madrid, Spain</p>
+</dd>
+<dt>2017</dt>
+<dd>
+<p>Course “Detection and prevention of sexist violence in the
+university” (1 ECTS) UCM, Madrid, Spain</p>
+</dd>
+<dt>2017</dt>
+<dd>
+<p>Course “Gender equality and construction of new social models for
+women and men” (2 ECTS) UCM, Madrid, Spain</p>
+</dd>
+</dl>
+<h2 id="voluntary-work">Voluntary work</h2>
+<dl>
+<dt>2023-present</dt>
+<dd>
+Co-founder and co-organiser of Diverse Climates Hamburg
+</dd>
+<dt>2022-2023</dt>
+<dd>
+PhD representative for the IMPRS graduate school
+</dd>
+<dt>2019-2020</dt>
+<dd>
+Member of the Student Council for the ICSS MSc program
+</dd>
+<dt>2018-2019</dt>
+<dd>
+Volunteer in the Spanish NGO Inakuwa, coordinating events and
+fundraisings
+</dd>
+<dt>2018</dt>
+<dd>
+Coach in the Winter Introduction Week for the International Students
+Association of Amsterdam
+</dd>
+</dl>
+<h2 id="languages">Languages</h2>
+<dl>
+<dt>Spanish</dt>
+<dd>
+Native speaker
+</dd>
+<dt>English</dt>
+<dd>
+Fluent
+</dd>
+<dt>German</dt>
+<dd>
+Basic (B1)
+</dd>
+<dt>French</dt>
+<dd>
+Elementary (B2)
+</dd>
+</dl>
+</body>
+</html>
