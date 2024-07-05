@@ -7,4 +7,5 @@ redirect_from:
   - /resume
 ---
 
-Here is the latest version of my CV, last updated on 04.07.24:
+Here is the latest version of my CV, last updated on 05.07.24:
+<a href="https://edualas.github.io/files/cv.pdf" target="_blank">CV</a>
