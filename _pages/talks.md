@@ -12,8 +12,8 @@ author_profile: true
   * **Talk by Schaumann and Alastrué de Asenjo: Flipping the cost of tipping? Economic impacts of reduced AMOC carbon drawdown**
 
 * **EGU24**, Vienna, Austria, 14-19.04.2024.
-  * **Poster by Alastrué de Asenjo et al.: Understanding the influence of Atlantic Meridional Overturning Circulation interannual variability on European cold extremes.**
-  * Talk by Schaumann and Alastrué de Asenjo: Flipping the cost of tipping? Economic impacts of reduced AMOC carbon drawdown.
+  * **Poster by Alastrué de Asenjo et al.: Understanding the influence of Atlantic Meridional Overturning Circulation interannual variability on European cold extremes**
+  * Talk by Schaumann and Alastrué de Asenjo: Flipping the cost of tipping? Economic impacts of reduced AMOC carbon drawdown
   * Talk by Jackson, Alastrué de Asenjo, et al.: AMOC thresholds in CMIP6 models: NAHosMIP
 
 * **AGU23**, San Francisco, USA, 11-15.12.2023.
