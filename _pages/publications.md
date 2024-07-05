@@ -4,11 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
 {% if site.author.googlescholar %}
-  <div class="wordwrap">
-    You can find my articles on my Google Scholar profile:
-    <iframe src="{{site.author.googlescholar}}" width="100%" height="500px"></iframe>
-  </div>
+  <div class="wordwrap">You can find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 {% comment %}
 {% include base_path %}
