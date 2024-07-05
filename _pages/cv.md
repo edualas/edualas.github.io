@@ -8,4 +8,5 @@ redirect_from:
 ---
 
 Here is the latest version of my CV, last updated on 05.07.24:
-<a href="https://edualas.github.io/files/cv.pdf" target="_blank">CV</a>
+
+<a href="https://edualas.github.io/files/resume.html" target="_blank">CV</a>
