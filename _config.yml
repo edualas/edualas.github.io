@@ -234,8 +234,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      header:
-        image: /assets/iceland_waterfall.jpeg
   # _teaching
   - scope:
       path: ""
