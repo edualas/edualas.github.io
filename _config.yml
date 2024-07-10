@@ -5,7 +5,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
-minimal_mistakes_skin    : "dark"
 
 # Basic Site Settings
 locale                   : "en-US"
@@ -233,7 +232,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: splash
       author_profile: true
   # _teaching
   - scope:
