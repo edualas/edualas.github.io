@@ -232,8 +232,10 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: splash
+      layout: single
       author_profile: true
+      header:
+        image: /assets/iceland_waterfall.jpeg
   # _teaching
   - scope:
       path: ""
