@@ -14,7 +14,8 @@ I completed a MSc in [Integrated Climate System Sciences](https://www.sicss.uni-
 
 # Research topics
 - Atlantic Meridional Overturning Circulation (AMOC)
-- European extreme events
+- European temperature extremes
+- Net-zero emissions futures
 - Extreme event attribution
 - Long-term detection and attribution
 
