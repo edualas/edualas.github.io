@@ -1,0 +1,9 @@
+---
+title: "Lecturer"
+collection: teaching
+type: "MSc course"
+venue: "University of Hamburg"
+date: 2026-04-01
+---
+
+I am teaching a full-semester MSc course on “Climate Modelling”, together with Prof Dr Johanna Baehr and Dr Leonard Borchert.
