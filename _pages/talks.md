@@ -44,3 +44,16 @@ author_profile: true
 * **EGU22**; Vienna, Austria; 23-27.05.2022
   * **Talk by Alastrué de Asenjo et al.: Causal attribution of low AMOC strengths to anthropogenic influence**
   * Talk by Jackson, Alastrué de Asenjo, et al.: AMOC thresholds in CMIP6 models: NAHosMIP
+
+## Talks
+
+* **Invited speaker**; AMOC workshop Hamburg-Utrecht, Hamburg, Germany; 17.03.2026
+* **Invited speaker**; EPOC Science meeting, webinar; 10.03.2026
+* **Visitor seminar**; University of Bern, Bern, Switzerland; 06.10.2025
+* **Extraordinary seminar**; ETH Zurich, Zurich, Switzerland; 06.10.2025
+* **BCCR Seminar**; Bjerknes Centre for Climate Research, Bergen, Norway; 25.08.2025
+* **Joint Oslo Seminar**; CICERO, Oslo, Norway; 21.08.2025
+* **Invited speaker**; CLICCS Insights Retreat, Hamburg, Germany; 10.07.2025
+* **Visitor seminar**; Monash University, Melbourne, Australia; 11.12.2024
+* **CCRC Seminar**; UNSW, Sydney, Australia; 19.11.2024
+* **Visitor seminar**; School of Geography, Earth and Atmospheric Sciences, University of Melbourne, Melbourne, Australia; 28.10.2024
