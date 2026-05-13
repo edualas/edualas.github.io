@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Dark Mode Support
+   ========================================================================== */
+
+:root {
+  /* Light mode (default) colors */
+  --body-color: #fff;
+  --background-color: #fff;
+  --text-color: #{$dark-gray};
+  --border-color: #{$lighter-gray};
+  --code-background-color: #fafafa;
+  --code-text-color: #{$text-color};
+  --masthead-background: #fff;
+  --masthead-text-color: #{$primary-color};
+  --link-color: #{$info-color};
+  --link-color-hover: #{mix(#000, $info-color, 25%)};
+  --primary-color: #{$primary-color};
+  --gray: #{$gray};
+  --light-gray: #{$light-gray};
+  --darker-gray: #{$darker-gray};
+}
+
+/* Dark mode colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-color: #1a1a1a;
+    --background-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --border-color: #333;
+    --code-background-color: #2d2d2d;
+    --code-text-color: #e0e0e0;
+    --masthead-background: #222;
+    --masthead-text-color: #8fa3b3;
+    --link-color: #52adc8;
+    --link-color-hover: #6fc4d9;
+    --primary-color: #8fa3b3;
+    --gray: #a0a0a0;
+    --light-gray: #404040;
+    --darker-gray: #2a2a2a;
+  }
+}

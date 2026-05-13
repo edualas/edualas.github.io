@@ -83,21 +83,22 @@
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: mix(#fff, $gray, 25%);
-      border: 1px solid $light-gray;
+      color: var(--text-color);
+      border: 1px solid var(--border-color);
       border-radius: 0;
+      transition: all 0.3s ease;
 
       &:hover {
-        color: $link-color-hover;
+        color: var(--link-color-hover);
       }
 
       &.current {
         color: #fff;
-        background: $primary-color;
+        background: var(--primary-color);
       }
 
       &.disabled {
-        color: mix(#fff, $gray, 75%);
+        color: var(--gray);
         pointer-events: none;
         cursor: not-allowed;
       }

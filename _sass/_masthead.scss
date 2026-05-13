@@ -4,11 +4,12 @@
 
 .masthead {
   position: fixed;
-  background: white;
-  border-bottom: 1px solid $border-color;
+  background: var(--masthead-background);
+  border-bottom: 1px solid var(--border-color);
   height: $masthead-height;
   top: 0;
   width: 100%;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
