@@ -158,10 +158,10 @@
 }
 
  .author__employer {
+   display: block;
    margin: 0 0 16px 0;
 
    @include breakpoint($large) {
-    display: block;
     margin-top: 2px;
     margin-bottom: 24px;
    }
