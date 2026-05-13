@@ -10,7 +10,7 @@ author_profile: true
 
 * **EGU26**: Vienna, Austria; 03-08.05.2026
 
-  * _Main convener of new session “AMOC changes and impacts on physical, biogeochemical, and societal systems”_
+  _Main convener of new session “AMOC changes and impacts on physical, biogeochemical, and societal systems”_
   * **Poster Could Europe actually cool if the AMOC weakens in a warming climate? by Eduardo Alastrué de Asenjo and Felix Schaumann**
   * Poster Atmospheric rivers around Antarctica are behind daily global temperature spikes and dips by Andrew King, Kimberley Reid, Jonathan Wille, and Eduardo Alastrué de Asenjo
   * Poster Assessing the effect of AMOC-induced temperature patterns on the global social cost of carbon by Jordis Hansen, Eduardo Alastrué de Asenjo, Felix Schaumann, and Johanna Baehr
