@@ -157,15 +157,15 @@
   }
 }
 
-.author__employer {
-  margin: 0;
+ .author__employer {
+   margin: 0 0 8px 0;
 
-  @include breakpoint($large) {
+   @include breakpoint($large) {
     display: block;
     margin-top: 2px;
-    margin-bottom: 4px;
-  }
-}
+    margin-bottom: 10px;
+   }
+ }
 
 .author__urls-wrapper {
   position: relative;
