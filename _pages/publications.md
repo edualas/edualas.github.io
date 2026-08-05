@@ -21,7 +21,7 @@ author_profile: true
 ## Submitted/In Review
 
 - **Alastrué de Asenjo, E.** & Schaumann, F. (in review). How much AMOC weakening would cool Europe in a warming climate?
-- Avakumovic, V., Ha, P. V., **Alastrué de Asenjo, E.**, Li, C., & Kompas, T. (in review). Unequal Burdens of Global Warming: Cross-Country Economic Damages from Labor Productivity, Agricultural Yields, and Heat-Related Mortality.
+- Avakumovic, V., Ha, P. V., **Alastrué de Asenjo, E.**, Li, C., & Kompas, T. (in review). The Unequal Burden of Global Warming: Cross-Country Heat-Stress Economic Damages to Labor Productivity, Agricultural Yields, and Heat-Related Mortality.
 - Clark, S., King, A. D., Brown, J. R., Cassidy, L. J., **Alastrué de Asenjo, E.**, & Ziehn, T. (in review). The reversibility of local and regional temperature extremes in CDRMIP. ESS Open Archive Eprints, 071, 27388. Preprint: <https://doi.org/10.22541/essoar.176556040.07127388/v1>
 - Jackson, L. C., **Alastrué de Asenjo, E.**, et al. (in review). Processes and feedbacks for AMOC stability following freshwater-induced weakening. Preprint: <https://doi.org/10.21203/rs.3.rs-8742476/v1>
 - King, A. D., Reid, K. J., Wille, J., **Alastrué de Asenjo, E.** (in review). Atmospheric rivers behind daily global temperature spikes and dips.
