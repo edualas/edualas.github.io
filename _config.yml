@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Eduardo Alastrué de Asenjo"
 title_separator          : "-"
 name                     : &name "Eduardo Alastrué de Asenjo"
-description              : &description "personal description"
+description              : "Earth system modeller studying the Atlantic Meridional Overturning Circulation, climate extremes, and climate change impacts."
 url                      : https://edualas.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "edualas/edualas.github.io"
@@ -126,7 +126,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 :  "/images/photo_edu.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
